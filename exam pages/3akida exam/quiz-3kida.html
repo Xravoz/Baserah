@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <title>بصيرة - BASERAH</title>
+</head>
+
+<body dir="rtl">
+    <nav dir="rtl">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#"><img src="/images/logo-header.png" alt=""></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/index.html">الرئيسية</a></li>
+                    <li><a href="/quizes.html">الإختبارات</a></li>
+                    <li><a href="/index.html">من نحن</a></li>
+                    <li><a href="https://www.linkedin.com/in/xravoz/">تواصل معنا</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button type="button">إنشـاء حسـاب</button>
+            </div>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div id="progress-bar"></div>
+   
+
+    <div class="start-screen">
+        <button id="start-button">ابدأ الآن</button>
+    </div>
+    <div id="display-container">
+        <div class="header">
+            <div class="number-of-count">
+                <span class="number-of-question">1 of 3 questions</span>
+            </div>
+            <div class="timer-div">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png"
+                    width="20px" />
+                <span class="time-left">10s</span>
+            </div>
+        </div>
+        <div id="container" >
+            <!-- questions and options will be displayed here -->
+        </div>
+        <button id="next-button">التالي</button>
+    </div>
+    <div class="score-container hide">
+        <div id="user-score">النتيجة النهائية</div>
+        <button id="restart">إعادة الإختبار</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="/exam pages/3akida exam/quiz-3kida.js"></script>
+</body>
+
+</html>
